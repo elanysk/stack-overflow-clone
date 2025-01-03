@@ -1,0 +1,71 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+.menu-items div {
+  margin: 0 10px;
+}
+
+.search-bar {
+  flex: 1;
+  padding: 0px 20px 0px 20px;
+}
+
+.menu-items .login-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 20px;
+  background-color: #728294;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.prevnextbuttons {
+    padding: 20px;
+    border-top: solid;
+    border-width: thin;
+}
+
+.voting-mechanism {
+    display: flex;
+    align-items: center;
+}
+
+.vote-arrow {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.vote-arrow span {
+    font-size: 24px;
+}
+
+.vote-arrow.voted {
+    color: red;
+}
+
+.vote-count {
+    font-size: 20px;
+}
